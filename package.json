@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "scrpts": {
-    "start": "node index.js"
+  "scripts": {
+    "server": "node ."
   },
   "type": "module",
   "dependencies": {
