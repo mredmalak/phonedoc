@@ -1,5 +1,9 @@
 //Require the stuff we need
 import express from 'express';
+import bodyParser from 'body-parser';
+
+const HOST = '17.0.0.1';
+const PORT = '5000';
 
 //Build the app
 const app = express();
@@ -15,3 +19,11 @@ app.use(req, res) => {
 
 // Start it up!
 app.listen(4000, () => console.log('Express is up and running'));
+
+// MVC
+//Model (Modelos)
+//Views (Vistas)
+//Controllers (Controladores)
+
+//Body parser
+//Transmitir data cliente -> servidor utilizando URLs 
