@@ -18,7 +18,7 @@ app.use(req, res) => {
 });
 
 // Start it up!
-app.listen(4000, () => console.log('Express is up and running'));
+app.listen(PORT, () => console.log(`Serving on port ${PORT}🤖`));
 
 // MVC
 //Model (Modelos)
